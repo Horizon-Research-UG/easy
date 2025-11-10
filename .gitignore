@@ -1,0 +1,25 @@
+# Node
+node_modules/
+.pnpm-store/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.eggs/
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
+
+# Virtual environments
+.env
+.venv
+
+# Builds
+build/
+dist/
+.coverage
+pytest_cache/

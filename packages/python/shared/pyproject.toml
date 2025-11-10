@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "easy-shared"
+version = "0.1.0"
+description = "Shared Python utilities for the Easy platform"
+authors = ["Horizon Research UG <dev@horizon-research.example>"]
+packages = [{ include = "shared" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.6.0"]
+build-backend = "poetry.core.masonry.api"
